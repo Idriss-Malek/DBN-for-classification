@@ -62,7 +62,7 @@ def display_images(images, nrows, ncols):
     plt.tight_layout()
     plt.show()
 
-def lire_mnist(data, shuffle=True):
+def read_mnist(data, shuffle=True):
     """
     Load MNIST data.
 
@@ -84,7 +84,7 @@ def lire_mnist(data, shuffle=True):
         X_test).float(), torch.tensor(y_test).long()
 
 
-def lire_alpha_digit(data, idx, shuffle=False):
+def read_alpha_digit(data, idx, shuffle=False):
     """
     Load alpha digit data.
 
