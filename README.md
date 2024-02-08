@@ -23,7 +23,8 @@ This repository demonstrates the utilization of Deep Belief Networks (DBNs) to s
 
 
 ## Data Sources:
-To use `read_mnist` and `read_alpha_digit` you need to download the datasets from [THIS CLICKABLE LINK](https://cs.nyu.edu/~roweis/data.html).
+To use `read_mnist` and `read_alpha_digit` you need to download the datasets from [THIS CLICKABLE LINK](https://cs.nyu.edu/~roweis/data.html).  
+The data have to be in a folder named `data`.
 - **MNIST Dataset**: To load the MNIST dataset, utilize the `read_mnist` function provided in `test.py`.
 - **BinaryAlphaDigit Dataset**: To load the BinaryAlphaDigit dataset, use the `read_alpha_digit` function provided in `test.py`.
 
